@@ -51,3 +51,9 @@ export default ContentRating;
       }
   }
     }
+ <button className="like-button" onClick={this.state.handleLike}>
+            Like ({this.state.likes})
+          </button>
+          <button className="dislike-button" onClick={this.state.handleDislike}>
+            Dislike ({this.state.dislikes})
+</button>
